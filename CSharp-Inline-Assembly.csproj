@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <RootNamespace>esozbek.CSharp-Inline-Assembly</RootNamespace>
+    <AssemblyName>CSharp-Inline-Assembly</AssemblyName>
+    <PlatformTarget>x86</PlatformTarget>
+	<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fasm.NET" Version="1.70.3.2" />
+    <PackageReference Include="Process.NET" Version="1.0.8" />
+  </ItemGroup>
+
+</Project>
